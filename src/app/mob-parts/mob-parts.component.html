@@ -1,0 +1,17 @@
+<h1>We Have {{calcPro()}} mobile parts in our stock...!</h1>
+<ul>
+  <li *ngFor="let mobPart of mobParts" [class.outOfStock]="mobPart.outOfStock">
+    <p>Product Name : {{mobPart.prodName | uppercase}}</p>
+    <p>Product Id : {{mobPart.prodId}}</p>
+    <p>Product Desc :<i>{{mobPart.prodDesc}}</i></p>
+    <p>Product Price :{{mobPart.price | currency:'₹ '}}</p>
+    <img [src]="mobPart.img" width="150px">
+    <button (click)="upQntt(mobPart)"> + </button>
+    <!-- <input> -->
+    {{mobPart.quantity}}
+    <button (click)="downQntt(mobPart)"> - </button>
+    <p *ngIf="mobPart.inStock === 0; else swati">Out Of Stock</p>
+    <ng-template #swati>We ahve {{mobPart.inStock}} products in Stock...!</ng-template>
+    <!-- <p *ngIf="mobPart.inStock > 0">We ahve {{mobPart.inStock}} products in Stock...!</p> -->
+  </li>
+</ul>

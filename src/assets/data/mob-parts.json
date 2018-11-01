@@ -1,0 +1,75 @@
+{
+	"data":[{
+		"prodName" : "Motorola Screen",
+		"prodId" : 1001,
+		"prodDesc" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+		"inStock" : 0,
+		"price" : 1200,
+		"img": "assets/img/img1.jpeg",
+		"outOfStock": true,
+		"quantity": 0
+	},{
+		"prodName" : "Motorola Screen",
+		"prodId" : 1001,
+		"prodDesc" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+		"inStock" : 30,
+		"price" : 1200,
+		"img": "assets/img/img2.jpeg",
+		"outOfStock": false,
+		"quantity": 0
+	},{
+		"prodName" : "Motorola Screen",
+		"prodId" : 1001,
+		"prodDesc" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+		"inStock" : 20,
+		"price" : 1200,
+		"img": "assets/img/img1.jpeg",
+		"outOfStock": true,
+		"quantity": 0
+	},{
+		"prodName" : "Motorola Screen",
+		"prodId" : 1001,
+		"prodDesc" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+		"inStock" : 30,
+		"price" : 1200,
+		"img": "assets/img/img2.jpeg",
+		"outOfStock": false,
+		"quantity": 0
+	},{
+		"prodName" : "Motorola Screen",
+		"prodId" : 1001,
+		"prodDesc" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+		"inStock" : 20,
+		"price" : 1200,
+		"img": "assets/img/img1.jpeg",
+		"outOfStock": true,
+		"quantity": 0
+	},{
+		"prodName" : "Motorola Screen",
+		"prodId" : 1001,
+		"prodDesc" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+		"inStock" : 0,
+		"price" : 1200,
+		"img": "assets/img/img2.jpeg",
+		"outOfStock": false,
+		"quantity": 0
+	},{
+		"prodName" : "Motorola Screen",
+		"prodId" : 1001,
+		"prodDesc" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+		"inStock" : 20,
+		"price" : 1200,
+		"img": "assets/img/img1.jpeg",
+		"outOfStock": true,
+		"quantity": 0
+	},{
+		"prodName" : "Motorola Screen",
+		"prodId" : 1001,
+		"prodDesc" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+		"inStock" : 0,
+		"price" : 1200,
+		"img": "assets/img/img2.jpeg",
+		"outOfStock": false,
+		"quantity": 0
+	}]
+}

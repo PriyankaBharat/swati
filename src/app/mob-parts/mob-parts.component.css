@@ -1,0 +1,17 @@
+.outOfStock{
+	background-color: lightyellow;
+}
+li{
+	box-shadow: 2px 2px 5px orange;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 7px;
+    /*background-color: grey;*/
+}
+button{
+	width: 40px;
+    height: 21px;
+    font-size: 18px;
+    color: blue;
+}
